@@ -1,0 +1,48 @@
+{
+	"name": "n8n-nodes-way-cms",
+	"version": "0.1.0",
+	"description": "n8n community node for Way-CMS — manage archived web content, files, backups, and search-replace operations",
+	"keywords": [
+		"n8n-community-node-package",
+		"way-cms",
+		"web-archive",
+		"wayback-machine",
+		"cms",
+		"self-hosted",
+		"content-management",
+		"backup"
+	],
+	"license": "MIT",
+	"author": {
+		"name": "GeiserX"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/GeiserX/n8n-nodes-way-cms.git"
+	},
+	"main": "dist/nodes/WayCms/WayCms.node.js",
+	"scripts": {
+		"prebuild": "node build-icons.cjs",
+		"build": "tsc && node build-icons.cjs",
+		"prepublishOnly": "npm run build"
+	},
+	"files": [
+		"dist"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"credentials": [
+			"dist/credentials/WayCmsApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/WayCms/WayCms.node.js"
+		]
+	},
+	"devDependencies": {
+		"n8n-workflow": "^1.70.0",
+		"typescript": "^5.7.0"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}
