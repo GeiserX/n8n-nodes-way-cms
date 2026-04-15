@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/banner.svg" alt="n8n-nodes-way-cms banner" width="900"/>
+</p>
+
 # n8n-nodes-way-cms
 
 [n8n](https://n8n.io/) community node for [Way-CMS](https://github.com/nichochar/way-cms) — manage archived web content, files, backups, and search-replace operations.
