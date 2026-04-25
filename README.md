@@ -2,6 +2,10 @@
   <img src="docs/images/banner.svg" alt="n8n-nodes-way-cms banner" width="900"/>
 </p>
 
+<p align="center">
+  <a href="https://codecov.io/gh/GeiserX/n8n-nodes-way-cms"><img src="https://codecov.io/gh/GeiserX/n8n-nodes-way-cms/graph/badge.svg" alt="codecov"></a>
+</p>
+
 # n8n-nodes-way-cms
 
 [n8n](https://n8n.io/) community node for [Way-CMS](https://github.com/nichochar/way-cms) — manage archived web content, files, backups, and search-replace operations.
