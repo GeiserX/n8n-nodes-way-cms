@@ -1,4 +1,4 @@
-# AGENTS.md — n8n-nodes-way-cms
+# CLAUDE.md — n8n-nodes-way-cms
 
 ## Project Overview
 
